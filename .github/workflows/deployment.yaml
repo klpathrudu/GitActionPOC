@@ -1,9 +1,9 @@
-name: Development workflow
+name: Deployment workflow
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 # Here the environment variable is declared in workflow level
 env:
